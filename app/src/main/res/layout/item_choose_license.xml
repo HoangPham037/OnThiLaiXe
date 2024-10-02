@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:id="@+id/layoutItem"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:background="@drawable/bgr_item_choose_license"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10dp"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvLicenseType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:padding="@dimen/_16dp"
+                    android:text="@string/license_a1"
+                    android:textColor="@color/green_02"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:textColor="@color/green_01"
+                    android:id="@+id/tvLicenseDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/desc_license_a1"
+                    android:textSize="@dimen/_16sp" />
+
+        </LinearLayout>
+</layout>

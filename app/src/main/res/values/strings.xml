@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">OnThiLaiXe</string>
+    <string name="title_splash">ÔN THI GIẤY PHÉP LÁI XE</string>
+    <string name="title_question">CÂU HỎI</string>
+    <string name="desc_question">ĐÀO TẠO SÁT HẠCH CẤP GIẤY PHÉP</string>
+    <string name="setting">setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trash_can">Trash can</string>
+    <string name="license_a1">A1</string>
+    <string name="license_a2">A2</string>
+    <string name="license_a3">A3</string>
+    <string name="license_a4">A4</string>
+    <string name="desc_license_a1">Xe mô phỏng 2 bánh có dung tích xi-lanh dưới 175cm3</string>
+    <string name="desc_license_a2">Xe mô tô 2 hai bánh có dung tích xi-lanh từ 175 cm3 trở lên</string>
+    <string name="desc_license_a3">Xe mô tô 3 bánh, xe lam…</string>
+    <string name="desc_license_a4">Xe máy kéo nhỏ có trọng tải đến 1000kg</string>
+    <string name="progress">Tiến độ</string>
+    <string name="submit_exam">Nộp bài thi</string>
+    <string name="finish_exam">Nộp bài thi</string>
+    <string name="desc_no_data_wrong">Tuyệt vời! Bạn đã trả lời đúng tất cả các câu hỏi!</string>
+    <string name="loading">Đang tải…</string>
+    <string name="name_app_slpash">600 CÂU HỎI BLX</string>
+    <string name="desc_answer">Giải thích đáp án</string>
+    <string name="slash">/</string>
+    <string name="tv_answer">Đáp án</string>
+    <string name="name_exam">Đề thi số</string>
+    <string name="text_result_true">ĐẠT YÊU CẦU: CHÚC MỪNG BẠN ĐÃ VƯỢT QUA BÀI THI!</string>
+    <string name="text_result_false">KHÔNG ĐẠT: BẠN CHƯA ĐỦ SỔ CÂU TỐI THIỂU CỦA ĐỀ THI</string>
+    <string name="reset_exam">reset</string>
+    <string name="total_quest_default">0/25</string>
+    <string name="desc_image">desc image</string>
+    <string name="message_purchase_one">%s</string>
+    <string name="txt_gold">0</string>
+    <string name="exams">Các bộ đề thi</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialog_custom"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_16dp"
+    android:padding="@dimen/_16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/green_01"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khi bạn làm bài thi, các câu trả lời sai của bạn sẽ được thu thập lại vào danh sách này để bạn có thể ôn tập lại."
+        />
+
+    <TextView
+        android:textColor="@color/green_01"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginVertical="@dimen/_16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiện tại danh sách này đang trống. Hãy ôn tập và làm hết các bài thì thử để có kết quả tốt nhất."/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_semibold"
+        android:id="@+id/tvSubmit"
+        android:background="@drawable/bgr_button"
+        android:padding="@dimen/_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đồng ý"
+        android:gravity="center"/>
+
+</LinearLayout>

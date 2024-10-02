@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rdtest_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="@color/gray_rdtest"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toStartOf="@+id/answear1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/answear1"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="What is the meaning of UI UX Design ?" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_questionPic"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rdtest_question"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:id="@+id/answear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_questionPic">
+
+                <TextView
+                    android:id="@+id/answearCicler1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_circle"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="1" />
+
+
+                <TextView
+                    android:id="@+id/txtAnswear1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_10sp"
+                    android:textColor="@color/green_01"
+                    android:textSize="@dimen/_14sp"
+                    tools:text="User Interfoce and User Experience" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/answear1">
+
+                <TextView
+                    android:id="@+id/answearCicler2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_circle"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="2" />
+
+                <TextView
+                    android:id="@+id/txtAnswear2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_10sp"
+                    android:textColor="@color/green_01"
+                    android:textSize="@dimen/_14sp"
+                    tools:text="User Interfoce and User Experience" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/answear2">
+
+                <TextView
+                    android:id="@+id/answearCicler3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_circle"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="3" />
+
+                <TextView
+                    android:id="@+id/txtAnswear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_10sp"
+                    android:textColor="@color/green_01"
+                    android:textSize="@dimen/_14sp"
+                    tools:text="User Interfoce and User Experience" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/answear3">
+
+                <TextView
+                    android:id="@+id/answearCicler4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_circle"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    tools:text="4" />
+
+                <TextView
+                    android:id="@+id/txtAnswear4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/_10sp"
+                    android:textColor="@color/green_01"
+                    android:textSize="@dimen/_14sp"
+                    tools:text="User Interfoce and User Experience" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layoutShowAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bgr_desc_answer"
+                android:orientation="vertical"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/answear4">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_semibold"
+                    android:text="@string/desc_answer"
+                    android:textColor="@color/green_02"
+                    app:drawableStartCompat="@drawable/ic_desc_answer" />
+
+                <TextView
+                    android:id="@+id/tvDescAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:textColor="@color/green_01"
+                    tools:text="this is where the answear being explain" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/_10dp"
+                android:id="@+id/tvCheckQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:background="@drawable/bgr_btn_check_ques"
+                android:drawablePadding="@dimen/_10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:padding="@dimen/_10dp"
+                android:text="@string/tv_answer"
+                android:textColor="@color/white"
+                app:drawableStartCompat="@drawable/ic_check_question"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/answear4" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
